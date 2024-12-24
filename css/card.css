@@ -1,0 +1,9 @@
+.margin_h4{
+    margin-left: 80px;
+}
+
+@media(max-width: 576px){
+    .margin_h4{
+        margin-left: 17px;
+    }
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Oleo+Script:wght@400;700&family=SUSE:wght@100..800&display=swap');
+ 
+.inter-font{
+    font-family: 'Inter';
+}
+
+.oleo-font{
+    font-family: "Oleo script", system-ui;
+}
+
+body{
+    margin-top: 75px;
+}
+.hero{
+    margin: 0px 270px 0px 270px;
+    /* height: 500px; */
+    overflow: hidden;
+}
+.inter-font{
+    margin-top:80px;
+    margin-left:-40px;
+    background-color: rgba(0, 0, 0, 0.305);
+    padding: 10px;
+}
+
+@media (max-width: 885px){
+    .hero{
+        margin: 1px;
+        
+    }
+    .inter-font{
+        font-size: 12px;
+        margin-top: 55px;
+        margin-left: -47px;
+    }
+    
+}
+
+

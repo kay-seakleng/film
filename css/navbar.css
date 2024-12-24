@@ -1,0 +1,36 @@
+
+
+.height {
+    height: 500px;
+}
+nav{
+    background: rgb(0, 184, 146);
+background: linear-gradient(
+  87deg,
+  rgba(0, 184, 146, 1) 0%,
+  rgba(1, 153, 203, 1) 63%,
+  rgba(24, 88, 250, 1) 100%
+);
+}
+.ms{
+    margin-left: 140px;
+}
+
+.dropdown-hover:hover .dropdown-menu {
+    display: block;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none; 
+  } 
